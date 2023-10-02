@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1;
+
+  background-color: hsl(0, 0%, 95%);
+}
+
+section {
+  padding: 9.6rem 0;
+}
+
+.container {
+  margin: 0 auto;
+
+  max-width: 96rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  padding: 4.8rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+
+  border-radius: 10px 0 0 10px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+
+  border-radius: 0 10px 10px 0;
+}
+
+.car-icon {
+  background-color: rgba(136, 136, 136, 0.4);
+
+  width: 3.6rem;
+  height: 3.6rem;
+
+  border-radius: 100%;
+
+  position: relative;
+
+  margin-bottom: 3.2rem;
+}
+
+.car-icon svg {
+  position: absolute;
+
+  fill: rgba(242, 242, 242, 0.7);
+
+  top: 0;
+  right: 0;
+
+  transform: translate(45%, 5%);
+}
+
+.heading-secondary {
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+  font-size: 3.8rem;
+  letter-spacing: 1px;
+
+  color: hsl(0, 0%, 95%);
+
+  margin-bottom: 3.2rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+
+  line-height: 1.7;
+  letter-spacing: 1px;
+  margin-bottom: 6.4rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+
+  padding: 1.2rem 2.4rem;
+  background-color: hsl(0, 0%, 95%);
+
+  font-size: 1.5rem;
+  color: inherit;
+
+  border-radius: 50px;
+  /* margin-bottom: ; */
+
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  color: hsl(0, 0%, 95%);
+  background-color: inherit;
+  /* borderd: 2px solid hsl(0, 0%, 95%); */
+  box-shadow: inset 0 0 0 2px #fff;
+}
