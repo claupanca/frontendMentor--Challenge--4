@@ -1,0 +1,20 @@
+/* *********** */
+/* BELOW 850px = 53em */
+/* *********** */
+@media (max-width: 53em) {
+  .container {
+    max-width: 32rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .sedan {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
